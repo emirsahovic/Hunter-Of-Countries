@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Yomogi&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0,0.65)), url('./img/header2.jpeg') no-repeat center center / cover;
+    font-family: 'Bona Nova', serif;    
+}
+
+img {
+    width: 80%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.user-form {
+    padding: 2rem;
+}
+
+.user-form input {
+    padding: 0.7rem 0.5rem;
+    width: 300px;
+    border-radius: 5px;
+    background-color: mediumslateblue;
+    opacity: 0.88;
+    outline: none;
+    color: #fff;
+}
+
+.user-form input::placeholder {
+    color: #fff;
+    font-size: 18px;
+}
+
+.user-form input:focus {
+    border-color: #1c39bb;
+}
+
+.content {
+    background-color: #1c39bb;
+    opacity: 0.97;
+    width: 800px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.content img {
+    height: 350px;
+}
+
+.content > div {
+    padding-top: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+.content h2, h3, h4 {
+    padding: 0.5rem 0.7rem;
+    margin-bottom: 1.2rem;
+}
+
+.content h2 {
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0,0.65)), url('./img/header.jpeg') no-repeat center center / cover;
+    border: 3px solid lavender;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 15px;
+}
+
+.content h3 {
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0,0.65)), url('./img/header.jpeg') no-repeat center center / cover;
+    border: 3px solid lavender;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 15px;
+}
+
+.content h4 {
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0,0.65)), url('./img/header.jpeg') no-repeat center center / cover;
+    border: 3px solid lavender;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    border-radius: 15px;
+}
+
+@media(max-width: 868px) {
+   .container {
+       height: 100vh;
+   }
+
+    .content {
+        width: 650px;
+    }
+}
+
+@media(max-width: 500px) {
+    .content {
+        width: 380px;
+    }
+
+    .content img {
+        height: 250px;
+    }
+}
