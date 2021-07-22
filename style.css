@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    width: 80%;
+    width: 65%;
 }
 
 .text-center {
@@ -54,16 +54,16 @@ img {
 }
 
 .content {
-    background-color: #1c39bb;
+    background: linear-gradient(rgba(0,0,0, 0.45), rgba(0,0,0,0.45)), url('img/contentimg.jpeg') no-repeat center center / cover;
     opacity: 0.97;
     width: 800px;
-    border-radius: 10px;
+    border-radius: 25px;
     transition: all 0.4s ease;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .content img {
-    height: 350px;
+    height: 280px;
 }
 
 .content > div {
@@ -78,7 +78,7 @@ img {
 
 .content h2 {
     color: #fff;
-    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0,0.65)), url('./img/header.jpeg') no-repeat center center / cover;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.7)), url('./img/contentimg.jpeg') no-repeat center center / cover;
     border: 3px solid lavender;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -87,7 +87,7 @@ img {
 
 .content h3 {
     color: #fff;
-    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0,0.65)), url('./img/header.jpeg') no-repeat center center / cover;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.7)), url('./img/contentimg.jpeg') no-repeat center center / cover;
     border: 3px solid lavender;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -97,7 +97,7 @@ img {
 .content h4 {
     color: #fff;
     font-size: 18px;
-    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0,0.65)), url('./img/header.jpeg') no-repeat center center / cover;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.7)), url('./img/contentimg.jpeg') no-repeat center center / cover;
     border: 3px solid lavender;
     margin-left: 8rem;
     margin-right: 8rem;
@@ -120,6 +120,6 @@ img {
     }
 
     .content img {
-        height: 250px;
+        height: 230px;
     }
 }
