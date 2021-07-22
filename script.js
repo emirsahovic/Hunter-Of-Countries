@@ -41,3 +41,5 @@ form.addEventListener('submit', (e) => {
         search.value = '';
     }
 })
+
+search.focus();
